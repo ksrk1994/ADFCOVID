@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AdfCovid47"
+		},
+		"AzureBlobStoragevamsi2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStoragevamsi1_accountKey": {
+			"value": ""
+		},
+		"GitHub1_credential": {
+			"value": ""
+		},
+		"Sftp1_password": {
+			"value": ""
+		},
+		"ls_adls_datalaakestgpraveen_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStoragevamsi1_properties_typeProperties_url": {
+			"value": "https://datalakestpraveen.dfs.core.windows.net/"
+		},
+		"GitHub1_properties_typeProperties_username": {
+			"value": "ksrk1994"
+		},
+		"Sftp1_properties_typeProperties_host": {
+			"value": "@{linkedService().sftpusername}"
+		},
+		"Sftp1_properties_typeProperties_userName": {
+			"value": "@{linkedService().mainusername}"
+		},
+		"lalitha_properties_typeProperties_url": {
+			"value": "https://www1.nseindia.com/"
+		},
+		"ls_adls_datalaakestgpraveen_properties_typeProperties_url": {
+			"value": "https://datalakestgpraveen.dfs.core.windows.net/"
+		},
+		"ls_ahttppraveen_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceURL}"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
